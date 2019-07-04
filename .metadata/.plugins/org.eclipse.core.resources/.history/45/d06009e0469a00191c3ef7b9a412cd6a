@@ -1,0 +1,14 @@
+package com.POM;
+
+import org.openqa.selenium.WebElement;
+
+public class WelcomeMerucryTours {
+	
+	// Object Repository Class
+	
+	// Elements identification and Operation on them are Written in this class
+	
+	WebElement signOn=driver.findElement(By.linkText("SIGN-ON"));
+	signOn.click();
+
+}

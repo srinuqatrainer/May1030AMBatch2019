@@ -1,0 +1,11 @@
+package com.POM;
+
+import org.openqa.selenium.support.PageFactory;
+
+public class NewTours_HomePageTesting extends BaseTest {
+
+	
+	WelcomeMerucryTours wmt = PageFactory.initElements(driver, WelcomeMerucryTours.class);
+
+	
+}

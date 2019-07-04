@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29564" started-at="2019-06-29T12:52:57Z" finished-at="2019-06-29T12:53:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29564" started-at="2019-06-29T12:52:57Z" finished-at="2019-06-29T12:53:27Z">
+      <class name="com.OHRM.TestScripts.LogInTest">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.OHRM.TestScripts.LogInTest@7ac7a4e4]" name="logIn" duration-ms="29543" started-at="2019-06-29T18:22:57Z" finished-at="2019-06-29T18:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- com.OHRM.TestScripts.LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

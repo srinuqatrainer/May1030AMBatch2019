@@ -1,0 +1,16 @@
+[main] INFO com.OHRM.LogInTest - Firefox Browser Opened Successfully
+[main] INFO com.OHRM.LogInTest - Successfully navigated to OrageHRM Home Page
+[main] INFO com.OHRM.LogInTest - Entered User Name Successfully
+[main] INFO com.OHRM.LogInTest - Entered Password Successfully
+[main] INFO com.OHRM.LogInTest - The expected text after logIn is : Welcome
+[main] INFO com.OHRM.LogInTest -  The actual Text after LogIn Is : Welcome Admin
+[main] INFO com.OHRM.LogInTest - LogIn Successfull - PASS
+[main] INFO com.OHRM.LogInTest - OrangeHRM Application closed Successfully
+[main] INFO com.OHRM.LogInTest - Firefox Browser Opened Successfully
+[main] INFO com.OHRM.LogInTest - Successfully navigated to OrageHRM Home Page
+[main] INFO com.OHRM.LogInTest - Entered User Name Successfully
+[main] INFO com.OHRM.LogInTest - Entered Password Successfully
+[main] INFO com.OHRM.LogInTest - The expected text after logIn is : Welcome
+[main] INFO com.OHRM.LogInTest -  The actual Text after LogIn Is : Welcome Admin
+[main] INFO com.OHRM.LogInTest - LogIn Successfull - PASS
+[main] INFO com.OHRM.LogInTest - OrangeHRM Application closed Successfully

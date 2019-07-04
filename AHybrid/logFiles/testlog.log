@@ -1,0 +1,22 @@
+2019-06-29 19:21:08,123 - Log -INFO - Successfully Navigated to OHRM Application Home Page
+2019-06-29 19:21:08,301 - Log -INFO - Entered Username
+2019-06-29 19:21:09,012 - Log -INFO - Entered Password
+2019-06-29 19:21:11,164 - Log -INFO - Perfom click operation of LogIn button
+2019-06-29 19:21:11,190 - Log -INFO - LogIn Successfull
+2019-06-29 19:21:11,249 - Log -INFO - Successfully Logged into OHRM Application
+2019-06-29 19:21:11,914 - Log -INFO - OHRM Application successfully closed
+2019-06-29 19:21:20,825 - Log -INFO - Successfully Navigated to OHRM Application Home Page
+2019-06-29 19:21:21,166 - Log -INFO - Entered Username
+2019-06-29 19:21:22,110 - Log -INFO - Entered Password
+2019-06-29 19:21:24,238 - Log -INFO - Perfom click operation of LogIn button
+2019-06-29 19:21:24,254 - Log -INFO - LogIn Successfull
+2019-06-29 19:21:24,302 - Log -INFO - Successfully Logged into OHRM Application
+2019-06-29 19:21:24,382 - Log -INFO - MouseHover on PIM 
+2019-06-29 19:21:34,542 - Log -INFO - Perform click on AddEmployee 
+2019-06-29 19:21:35,255 - Log -INFO - Entered FirstName
+2019-06-29 19:21:35,371 - Log -INFO - Entered MiddleName
+2019-06-29 19:21:35,456 - Log -INFO - Entered LastName
+2019-06-29 19:21:35,487 - Log -INFO - Employee id is : 0052
+2019-06-29 19:21:37,209 - Log -INFO - click on Save button
+2019-06-29 19:21:37,250 - Log -INFO - Registed Employee name is : user1 hello hiiii
+2019-06-29 19:21:37,697 - Log -INFO - OHRM Application successfully closed

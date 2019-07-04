@@ -1,0 +1,22 @@
+[main] INFO Log - Successfully Navigated to OHRM Application Home Page
+[main] INFO Log - Entered Username
+[main] INFO Log - Entered Password
+[main] INFO Log - Perfom click operation of LogIn button
+[main] INFO Log - LogIn Successfull
+[main] INFO Log - Successfully Logged into OHRM Application
+[main] INFO Log - OHRM Application successfully closed
+[main] INFO Log - Successfully Navigated to OHRM Application Home Page
+[main] INFO Log - Entered Username
+[main] INFO Log - Entered Password
+[main] INFO Log - Perfom click operation of LogIn button
+[main] INFO Log - LogIn Successfull
+[main] INFO Log - Successfully Logged into OHRM Application
+[main] INFO Log - MouseHover on PIM 
+[main] INFO Log - Perform click on AddEmployee 
+[main] INFO Log - Entered FirstName
+[main] INFO Log - Entered MiddleName
+[main] INFO Log - Entered LastName
+[main] INFO Log - Employee id is : 0052
+[main] INFO Log - click on Save button
+[main] INFO Log - Registed Employee name is : user1 hello hiiii
+[main] INFO Log - OHRM Application successfully closed

@@ -1,0 +1,16 @@
+package com.OHRM;
+
+import org.openqa.selenium.WebDriver;
+
+public class LogInTest {
+	
+	WebDriver driver = null;
+	String url="http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/login";
+	
+	@BeforeTest
+	public void setUP()
+	{
+		
+	}
+	
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18564" started-at="2019-06-29T14:18:47Z" finished-at="2019-06-29T14:19:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18564" started-at="2019-06-29T14:18:47Z" finished-at="2019-06-29T14:19:05Z">
+      <class name="com.WindowHandling.Gmail_Help_CreateGoogleAcccount_Privacy_Click">
+        <test-method status="PASS" signature="gmail()[pri:0, instance:com.WindowHandling.Gmail_Help_CreateGoogleAcccount_Privacy_Click@5dfcfece]" name="gmail" duration-ms="18540" started-at="2019-06-29T19:48:47Z" finished-at="2019-06-29T19:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail -->
+      </class> <!-- com.WindowHandling.Gmail_Help_CreateGoogleAcccount_Privacy_Click -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

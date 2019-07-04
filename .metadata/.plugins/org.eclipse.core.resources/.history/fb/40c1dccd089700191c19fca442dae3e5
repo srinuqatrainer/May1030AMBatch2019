@@ -1,0 +1,100 @@
+package com.GRID;
+
+import java.io.FileOutputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class OrangeHRM_LogInTest {
+	
+	
+	@DataProvider(parallel=true)
+	public Object[][] getData()
+	{
+		 Object[][] data = new Object[2][3];
+		
+		data[0][0]="tutorial";
+		data[0][1]="tutorial";
+		data[0][2]="chrome";
+		
+		data[1][0]="tutorial";
+		data[1][1]="tutorial";
+		data[1][2]="firefox";
+		
+		return data;
+	}
+	
+	@Test(dataProvider="getData")
+	public void LogInTest(String userName,String password,String browser) throws MalformedURLException 
+	{
+		System.out.println(browser);
+		
+		DesiredCapabilities cap = null;
+		
+		if(browser.equals("firefox"))
+		{
+			cap = DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.WINDOWS);
+			
+		}
+		else 
+			if(browser.equals("chrome"))
+			{
+				cap = DesiredCapabilities.chrome();
+				cap.setBrowserName("chrome");
+				cap.setPlatform(Platform.WINDOWS);
+			}
+		
+		
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.22:4444/wd/hub"),cap);
+		System.setProperty("webdriver.gecko.driver", "c:\\geckodriver.exe");
+		
+		String url="http://newTours.demoaut.com";
+		
+		driver.get(url);
+		
+		// <input type="text" name="userName" size="10">
+		
+				driver.findElement(By.name("userName")).sendKeys(userName);
+				
+				// <input type="password" name="password" size="10">
+				
+				driver.findElement(By.name("password")).sendKeys(password);
+				
+				// <input type="image" name="login" value="Login" src="/images/btn_signin.gif" width="58" height="17" alt="Sign-In" border="0">
+				
+				driver.findElement(By.name("login")).click();
+		
+				String expected_Title="Find";
+				System.out.println(" The expected title after login is : "+expected_Title);
+								
+				String actual_Title=driver.getTitle();
+				System.out.println(" The actual title after logIn is : "+actual_Title);
+								
+				if (actual_Title.contains(expected_Title))
+				{
+					System.out.println(" LogIn Successfull - PASS");
+					// creating a row of a cell and setting the result into it
+				
+				}
+				else
+				{
+					System.out.println(" LogIn Failed - FAIL");
+					// creating a row of a cell and setting the result into it
+
+				}
+						
+						driver.navigate().back();
+		
+		
+		driver.close();
+
+	}
+}

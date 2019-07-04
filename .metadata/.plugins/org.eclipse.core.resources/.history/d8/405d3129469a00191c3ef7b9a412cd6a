@@ -1,0 +1,14 @@
+package com.POM;
+
+public class BaseTest {
+	
+	WebDriver driver= null;
+	String url="http://newtours.demoaut.com";
+	
+	@BeforeTest
+	public void setUp()
+	{
+		driver = new firefoxd
+	}
+
+}

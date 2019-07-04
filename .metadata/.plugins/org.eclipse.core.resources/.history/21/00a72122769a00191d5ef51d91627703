@@ -1,0 +1,30 @@
+package com.WindowHandling;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class Gmail_Help_CreateGoogleAcccount_Privacy_Click {
+	
+	@Test
+	public void gmail()
+	{
+		WebDriver driver = null;
+		String url="http://gmail.com";
+		driver = new FirefoxDriver();
+		
+		driver.get(url);
+		
+		driver.manage().window().maximize();
+		
+		// Geeting the Title of Gmail HomePage
+		
+		System.out.println(driver.getTitle());
+		
+		
+		
+		
+		
+	}
+
+}
